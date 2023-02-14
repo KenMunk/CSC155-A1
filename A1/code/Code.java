@@ -67,7 +67,7 @@ public class Code extends JFrame implements GLEventListener
 		buttonPanel.setBackground(new Color(0, 0, 0, 0));
 		this.add(buttonPanel, BorderLayout.SOUTH);
 		
-		InputMap inputMap = buttonPanel.getInputMap(JComponent.WHEN_FOCUSED);
+		InputMap inputMap = buttonPanel.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW);
 		ActionMap actionMap = buttonPanel.getActionMap();
 
 		KeyStroke key1 = KeyStroke.getKeyStroke('1');
